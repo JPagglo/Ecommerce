@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <!--Link CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <!-- Menu Icon -->
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <!-- Logo -->
+            <a href="index.html" class="logo">Ecommerece</a>
+            <!-- Mavbar -->
+            <div class="navbar">
+                <a href="#" class="nav-link">Mulheres</a>
+                <a href="#" class="nav-link">Homens</a>
+                <a href="#" class="nav-link">Acessórios</a>
+            </div>
+            <!-- Cart Icon-->
+            <a href="cart.html">
+                <i class='bx bx-shopping-bag' id="cart-icon" data-quantity="0"></i>
+            </a>
+        </div>
+    </header>
+    <!-- Cart -->
+    <section class="cart-container container">
+        <a href="index.html" class="back-homepage">
+            <i class='bx bx-chevron-left'></i>
+            <span>Back To Home</span>
+        </a>
+        <h2 class="cart-s-title">Shopping cart</h2>
+        <div class="cart-box">
+            <div class="cart-data">
+                <div id="cartItems">
+                  <!-- <div class="cart-item">
+                        <img src="" alt="" />
+                        <div class="cart-item-info">
+                            <h2 class="cart-item-title"></h2>
+                            <input class="cart-item-quantity" type="number" min="1" value="" data-id="" />
+                        </div>
+                         <h2 class="class-tem-price"></h2>
+                         <button class="remove-from-cart" data-id="">Remover</button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="cart-t">
+                <div id="cartTotal"></div>
+                <a href="" class="checkout-btn">Checkout</a>
+            </div>
+        </div>
+    </section>
+    <!-- Link to JS -->
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
